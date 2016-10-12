@@ -16,8 +16,8 @@
   (define-key map (kbd "C-c g a") 'helm-gtags-tags-in-this-function)
   (define-key map (kbd "M-.") 'ggtags-find-tag-dwim)
   (define-key map (kbd "M-,") 'pop-tag-mark)
-  (define-key map (kbd "C-c <") 'ggtags-prev-mark)
-  (define-key map (kbd "C-c >") 'ggtags-next-mark))
+  (define-key map (kbd "C-c C-,") 'ggtags-prev-mark)
+  (define-key map (kbd "C-c C-.") 'ggtags-next-mark))
 
 
 ;; this variables must be set before load helm-gtags
